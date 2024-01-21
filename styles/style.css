@@ -152,7 +152,26 @@ header nav ul li a {
 
 
 
+/* 
+                                Link section.
+=============================================================================
+*/
 
+#link_section {
+    width: 85%;
+    margin: 6.25em auto;
+}
+
+#link_section ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 1em;
+    padding: 2.5em;
+}
+
+#link_section hr {
+    border: 1px solid #C0CCDA99;
+}
 
 
 
@@ -198,7 +217,7 @@ header nav ul li a {
 
 
 
-     /*
+    /*
                                             Main.
     =====================================================================================
     */
@@ -240,6 +259,21 @@ header nav ul li a {
         margin-bottom: 2em;
     }
 
+
+
+    /*
+                                            Main.
+    =====================================================================================
+    */
+
+    /*
+                                    Link section.
+    =========================================================================
+    */
+    #link_section ul {
+        flex-wrap: wrap;
+    }
+
 }
 
 
@@ -277,7 +311,33 @@ header nav ul li a {
     */
 
     /*
+                                    Link section.
+    =========================================================================
+    */
+    #link_section ul {
+        flex-wrap: wrap;
+        align-items: center;
+    }
+}
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+
+    /*
+                                            Main.
+    =====================================================================================
+    */
+
+    /*
                                      section.
     =========================================================================
     */
+    
 }
