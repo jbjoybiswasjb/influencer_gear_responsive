@@ -303,7 +303,42 @@ header nav ul li a {
 
 
 
+/* 
+                                    Footer section.
+=========================================================================================
+*/
+footer {
+    padding: 3.125em 0;
+    text-align: center;
+    background-color: #0A0826;
+}
 
+footer h3 {
+    color: #FFF;
+    font-size: 1.5em;
+    font-weight: var(--font_weight_700);
+}
+
+footer span {
+    display: block;
+    color: #D9DBE1;
+    font-size: var(--font_size_1em);
+    font-weight: var(--font_weight_700);
+    margin: 0.1875em 0;
+    font-family: 'Manrope', sans-serif;
+}
+
+footer ul {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.0625em;
+    gap: 1em;
+}
+
+footer ul li a {
+    font-size: 2em;
+    color: #fff;
+}
 
 
 
