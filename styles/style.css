@@ -259,6 +259,49 @@ header nav ul li a {
     color: #787885;
 }
 
+#popular_section p {
+    text-align: right;
+    color: rgba(224, 44, 109, 0.87);
+    font-size: 1em;
+    font-weight: var(--font_weight_700);
+}
+
+
+
+
+
+/* 
+                                Popular section.
+=============================================================================
+*/
+#featured_product_section {
+    width: 85%;
+    margin: 6.25em auto;
+    height: 100%;
+}
+
+.featured_product_flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5%;
+}
+
+.featured_product_left h3 {
+    color: #0A0826;
+    font-size: 2.375em;
+    font-weight: var(--font_weight_700);
+}
+
+.featured_product_left p {
+    color: #6C6C6C;
+    font-size: 1em;
+    font-weight: var(--font_weight_700);
+    margin: 1em 0;
+}
+
+
+
 
 
 
@@ -338,13 +381,6 @@ header nav ul li a {
         margin-bottom: 2em;
     }
 
-
-
-    /*
-                                            Main.
-    =====================================================================================
-    */
-
     /*
                                     Link section.
     =========================================================================
@@ -353,7 +389,6 @@ header nav ul li a {
         flex-wrap: wrap;
     }
 
-
     /*
                                     Popular section.
     =========================================================================
@@ -361,9 +396,23 @@ header nav ul li a {
     .popular_grid {
         grid-template-columns: 1fr;
     }
-    
+
+    /*
+                                Feature product section.
+    =========================================================================
+    */
+    .featured_product_flex {
+        flex-direction: column-reverse;
+        gap: 2em;
+        text-align: center;
+    }
+
 
 }
+
+
+
+
 
 
 
@@ -415,7 +464,22 @@ header nav ul li a {
     .popular_grid {
         grid-template-columns: repeat(2, 1fr);
     }
+
+
+    /*
+                                    Feature product section.
+    =========================================================================
+    */
+    .featured_product_flex {
+        flex-direction: column;
+        gap: 2em;
+        text-align: center;
+    }
 }
+
+
+
+
 
 
 
